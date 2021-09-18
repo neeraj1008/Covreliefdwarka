@@ -50,8 +50,17 @@ p {
 	color: #213842;
 }
 
+.navbar-nav li a {
+	border-radius: 50px;
+	padding: 10px 40px !important;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+
 .navbar-nav li a:hover {
-	color: #1ba8f1 !important;
+	color: #DC7DFF !important;
 }
 
 .link {
@@ -156,18 +165,20 @@ p {
 .vaccination-button {
 	padding: 15px 50px;
 	cursor: pointer;
-	background: #1ba8f1 !important;
 	border-radius: 50px;
 	font-weight: 600;
+	background: linear-gradient(90deg, #736FFF 0%, #DC7DFF 100%);
+	border: 0;
 }
 
 
 .submit-button {
 	padding: 15px 50px;
 	cursor: pointer;
-	background: #1ba8f1 !important;
 	border-radius: 50px;
 	font-weight: 600;
+	background: linear-gradient(90deg, #736FFF 0%, #DC7DFF 100%);
+	border: 0;
 }
 
 .help-button {
@@ -175,6 +186,7 @@ p {
 	cursor: pointer;
 	border-radius: 50px;
 	font-weight: 600;
+
 }
 
 .btn-yellow:hover {
@@ -322,8 +334,12 @@ p {
 }
 
 .footer {
-	background: #f5f5f5;
-	color: #101433;
+	background: #1d2238;
+	color: #fff !important;
+}
+
+.footer  p {
+	color: #fff !important;
 }
 
 .footer-n-logo img {
@@ -340,7 +356,7 @@ p {
 .social ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0  5px;
 }
 
 .social ul li a img {
@@ -360,13 +376,13 @@ p {
 }
 
 .email {
-	color: #1ba8f1;
+	color: #DC7DFF;
 	font-weight: 600;
 }
 
 .copyright {
 	font-size: 16px;
-	color: #101433;
+	color: #fff;
 }
 
 .email:hover {
@@ -376,7 +392,7 @@ p {
 }
 
 .donate-now {
-	background: #1ba8f1;
+	background: linear-gradient(90deg, #736FFF 0%, #DC7DFF 100%);
 	padding: 40px;
 	margin: -120px 0 60px 0;
 	color: #fff;
@@ -386,6 +402,23 @@ p {
 
 .donate-student {
 	font-weight: 700;
+}
+
+input {
+	border-radius: 50px !important;
+}
+
+.user-icon {
+	width: 52px;
+	height: 52px;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.table .thead-dark th {
+	background: #1d2238 !important;
+	padding-top: 15px !important;
+	padding-botom: 15px !important;
 }
 
 /**************media**********************/
