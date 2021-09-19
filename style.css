@@ -169,6 +169,7 @@ p {
 	font-weight: 600;
 	background: linear-gradient(90deg, #736FFF 0%, #DC7DFF 100%);
 	border: 0;
+	margin-bottom: 20px;
 }
 
 
@@ -186,6 +187,7 @@ p {
 	cursor: pointer;
 	border-radius: 50px;
 	font-weight: 600;
+	margin-bottom: 20px;
 
 }
 
@@ -443,6 +445,13 @@ input {
 	}
 	.custom-header li a {
 		margin: 15px !important;
+	}
+	.user-icon {
+		display: block;
+	}
+	form {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
